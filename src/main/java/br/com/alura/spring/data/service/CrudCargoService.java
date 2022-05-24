@@ -17,7 +17,7 @@ public class CrudCargoService {
 		this.cargoRepository = cargoRepository;
 	}
 
-	public void init(Scanner scanner) {
+	public void inicial(Scanner scanner) {
 		while (system) {
 			System.out.println("What postion action do you what to do?");
 			System.out.println("0 - Exit");
