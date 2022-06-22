@@ -32,7 +32,8 @@ public class CrudFuncionarioService {
 	
 	
 	public CrudFuncionarioService(FuncionarioRepository funcionarioRepository, 
-			CargoRepository cargoRepository, UnidadeTrabalhoRepository unidadeTrabalhoRepository) {
+			CargoRepository cargoRepository, 
+			UnidadeTrabalhoRepository unidadeTrabalhoRepository) {
 		this.cargoRepository = cargoRepository;
 		this.funcionarioRepository = funcionarioRepository;
 		this.unidadeTrabalhoRepository = unidadeTrabalhoRepository;
